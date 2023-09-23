@@ -1,0 +1,199 @@
+-- component page:
+children c:
+ftd.image-src logo:
+string text:
+string button:
+
+-- ftd.column:
+width: fill-container
+
+-- navbar:
+logo: $page.logo
+text: $page.text
+button: $page.button 
+
+-- ftd.column:
+width: fill-container
+children: $page.c
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: page
+
+
+
+
+-- component navbar:
+ftd.image-src logo:
+string text:
+string button:
+
+-- ftd.column:
+width: fill-container
+
+-- navbar-mobile:
+if: { ftd.device == "mobile" }
+logo: $navbar.logo
+text: $navbar.text
+button: $navbar.button
+
+-- navbar-desktop:
+if: { ftd.device == "desktop" }
+logo: $navbar.logo
+text: $navbar.text
+button: $navbar.button
+
+-- end: ftd.column
+
+-- end: navbar
+
+
+
+
+
+
+
+
+
+
+
+-- component navbar-desktop:
+ftd.image-src logo:
+string text:
+string button:
+
+-- ftd.row:
+width.fixed.percent: 100
+border-radius.px: 10
+spacing: space-between
+padding.px: 24
+
+-- ftd.row:
+spacing.fixed.px: 16
+
+-- ftd.image:
+src: $navbar-desktop.logo
+height.fixed.px: 100
+align-self: center
+
+-- ftd.text: $navbar-desktop.text
+align-self: center
+role: $inherited.types.label-small
+
+-- end: ftd.row
+
+-- ftd.column:
+background.solid: Red
+padding.px: 16
+
+-- ftd.text: $navbar-desktop.button
+role: $inherited.types.label-small
+align-self: center
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: navbar-desktop
+
+
+
+
+
+
+-- component navbar-mobile:
+ftd.image-src logo:
+string text:
+string button:
+
+-- ftd.row:
+width.fixed.percent: 100
+border-radius.px: 10
+spacing: space-between
+padding.px: 24
+
+-- ftd.row:
+spacing.fixed.px: 16
+
+-- ftd.image:
+src: $navbar-mobile.logo
+height.fixed.px: 100
+align-self: center
+
+-- ftd.text: $navbar-mobile.text
+align-self: center
+role: $inherited.types.button-large
+
+-- end: ftd.row
+
+-- ftd.text: $navbar-mobile.button
+align-self: center
+role: $inherited.types.button-large
+padding.px: 16
+
+-- end: ftd.row
+
+-- end: navbar-mobile
+
+
+
+
+
+
+
+
+-- component searchbar-1:
+caption title: 
+string search-text: 
+boolean $buttonHover-1: false
+boolean $searchHover-1: false
+ 
+
+-- ftd.column:
+width: fill-container
+align-content: center
+spacing.fixed.px: 5
+
+-- ftd.text-input:
+placeholder: From :
+padding-vertical.px: 4
+padding-horizontal.px: 2
+width.fixed.percent: 50
+border-radius.px: 5
+border-width.px: 1
+border-color: $inherited.colors.border
+role: $inherited.types.copy-small
+color: $colors.text-
+
+-- ftd.text-input:
+placeholder: To :
+padding-vertical.px: 4
+padding-horizontal.px: 2
+width.fixed.percent: 50
+border-radius.px: 5
+border-width.px: 1
+border-color: $inherited.colors.border
+role: $inherited.types.copy-small
+color: $colors.text-
+
+-- ftd.text-input:
+placeholder: Date :
+padding-vertical.px: 4
+padding-horizontal.px: 2
+width.fixed.percent: 50
+border-radius.px: 5
+border-width.px: 1
+border-color: $inherited.colors.border
+;;type: text
+role: $inherited.types.copy-small
+color: $colors.text-
+
+-- end: ftd.column
+
+-- end: searchbar-1
+
+
+
+

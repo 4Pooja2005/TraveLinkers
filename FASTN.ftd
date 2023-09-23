@@ -9,10 +9,10 @@ favicon: /-/4pooja2005.github.io/travelinkers/favicon.ico
 
 -- fastn.auto-import: 4pooja2005.github.io/travelinkers/FASTN/ds
 -- fastn.auto-import: 4pooja2005.github.io/travelinkers/assets
+-- fastn.auto-import: 4pooja2005.github.io/travelinkers/lib
+-- fastn.auto-import: 4pooja2005.github.io/travelinkers/colors
+
 -- fastn.auto-import: doc-site
 
--- fastn.sitemap:
 
-# Home: index.html
 
-- Right Sidebar Sample: /sidebar/

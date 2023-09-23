@@ -154,29 +154,29 @@ spacing.fixed.px: 5
 -- ftd.text-input:
 placeholder: From 
 padding-vertical.px: 4
-padding-horizontal.px: 2
-width.fixed.percent: 50
+padding-horizontal.px: 8
+width.fixed.percent: 100
 border-radius.px: 5
-border-width.px: 1
+border-width.px: 8
 border-color: $inherited.colors.border
 
 -- ftd.text-input:
 placeholder: To
 padding-vertical.px: 4
-padding-horizontal.px: 2
-width.fixed.percent: 50
+padding-horizontal.px: 8
+width.fixed.percent: 100
 border-radius.px: 5
-border-width.px: 1
+border-width.px: 8
 border-color: $inherited.colors.border
 
 
 -- ftd.text-input:
 placeholder: Date 
 padding-vertical.px: 4
-padding-horizontal.px: 2
-width.fixed.percent: 50
+padding-horizontal.px: 8
+width.fixed.percent: 100
 border-radius.px: 5
-border-width.px: 1
+border-width.px: 8
 border-color: $inherited.colors.border
 
 -- end: ftd.column

@@ -186,7 +186,6 @@ width.fixed.percent: 50
 border-radius.px: 5
 border-width.px: 1
 border-color: $inherited.colors.border
-;;type: text
 role: $inherited.types.copy-small
 color: $colors.text-
 
@@ -197,3 +196,40 @@ color: $colors.text-
 
 
 
+
+
+
+
+
+
+-- component footer:
+string text-1:
+string text-2:
+string text-3:
+
+-- ftd.row:
+width.fixed.percent: 100
+border-radius.px: 10
+spacing: space-between
+padding.px: 24
+
+-- ftd.row:
+spacing.fixed.px: 16
+
+-- ftd.text: $footer.text-1
+align-self: start
+role: $inherited.types.label-small
+
+-- ftd.text: $footer.text-2
+align-self: center
+role: $inherited.types.label-small
+
+-- ftd.text: $footer.text-3
+align-self: end
+role: $inherited.types.label-small
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: footer

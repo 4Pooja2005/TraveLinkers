@@ -8,4 +8,9 @@ button: Report
 $buttonHover-1: false
 search-text: Search
 
+-- lib.footer: 
+text-1: Home
+text-2: Bookings
+text-3: Help
+
 -- end: lib.page

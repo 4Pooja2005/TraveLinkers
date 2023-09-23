@@ -1,18 +1,18 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: 4pooja2005.github.io/travelinkers
+favicon: /-/4pooja2005.github.io/travelinkers/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/ds
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
+-- fastn.auto-import: 4pooja2005.github.io/travelinkers/FASTN/ds
+-- fastn.auto-import: 4pooja2005.github.io/travelinkers/assets
+-- fastn.auto-import: 4pooja2005.github.io/travelinkers/lib
+-- fastn.auto-import: 4pooja2005.github.io/travelinkers/colors
+
 -- fastn.auto-import: doc-site
 
--- fastn.sitemap:
 
-# Home: index.html
 
-- Right Sidebar Sample: /sidebar/

@@ -4,9 +4,9 @@ logo: $assets.files.assets.logo.png
 text: TraveLinkers
 button: Report 
 
--- lib.searchbar-1: From
-$buttonHover-1: false
-search-text: Search
+-- lib.searchbar-1: 
+
+
 
 -- lib.footer: 
 text-1: Home

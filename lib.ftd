@@ -144,12 +144,7 @@ padding.px: 16
 
 
 
--- component searchbar-1:
-caption title: 
-string search-text: 
-boolean $buttonHover-1: false
-boolean $searchHover-1: false
- 
+-- component searchbar-1: 
 
 -- ftd.column:
 width: fill-container
@@ -157,37 +152,32 @@ align-content: center
 spacing.fixed.px: 5
 
 -- ftd.text-input:
-placeholder: From :
+placeholder: From 
 padding-vertical.px: 4
 padding-horizontal.px: 2
 width.fixed.percent: 50
 border-radius.px: 5
 border-width.px: 1
 border-color: $inherited.colors.border
-role: $inherited.types.copy-small
-color: $colors.text-
 
 -- ftd.text-input:
-placeholder: To :
+placeholder: To
 padding-vertical.px: 4
 padding-horizontal.px: 2
 width.fixed.percent: 50
 border-radius.px: 5
 border-width.px: 1
 border-color: $inherited.colors.border
-role: $inherited.types.copy-small
-color: $colors.text-
+
 
 -- ftd.text-input:
-placeholder: Date :
+placeholder: Date 
 padding-vertical.px: 4
 padding-horizontal.px: 2
 width.fixed.percent: 50
 border-radius.px: 5
 border-width.px: 1
 border-color: $inherited.colors.border
-role: $inherited.types.copy-small
-color: $colors.text-
 
 -- end: ftd.column
 
